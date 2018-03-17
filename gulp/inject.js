@@ -12,6 +12,7 @@
         browserSync.reload();
     });
 
+
     function injectTask () {
         let injectStyles = gulp.src([
             path.join(conf.paths.tmp, '/serve/styles/**/*.css')
@@ -19,7 +20,7 @@
 
         let injectScripts = gulp.src([
             path.join(conf.paths.tmp, '/serve/js/**/*.js')
-        ]);
+        ], {read: false});
 
 
         let injectOptions = {
