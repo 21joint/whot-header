@@ -1,18 +1,21 @@
 {
-  "name": "favester",
-  "version": "0.0.3",
+  "name": "waco-header",
+  "version": "0.0.1",
   "description": "",
-  "authors": [
-    "levon1.grigoryan@gmail.com"
-  ],
-  "license": "private",
-  "homepage": "",
-  "private": true,
+  "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp serve",
-    "prod": "gulp serve:dist",
-    "push": "gulp && git add . && git commit -m'server updated' && git push"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21joint/whot-header.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/21joint/whot-header/issues"
+  },
+  "homepage": "https://github.com/21joint/whot-header#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
