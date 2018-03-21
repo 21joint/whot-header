@@ -2,7 +2,8 @@ global.jQuery = require("jquery");
 
 (function ($) {
 
-    require("bootstrap-sass/assets/javascripts/bootstrap/dropdown");
+    require("bootstrap-sass/assets/javascripts/bootstrap/collapse");
+    require("bootstrap-sass/assets/javascripts/bootstrap/transition");
 
 
     $('body').on('click', '.mlb-bg--green', function (e) {
